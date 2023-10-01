@@ -1,5 +1,3 @@
-
-local textLabel = script.Parent
 local stringValue = game.ReplicatedStorage.GuiTexts.Votes
 
 
@@ -31,11 +29,6 @@ end
 
 -- Main execution
 print("a")
-
--- Error handling for missing TextLabel or StringValue
-if not textLabel then
-	error("shut")
-end
 
 if not stringValue then
 	error("Missing StringValue. Make sure the StringValue is a child of GuiTexts.")
