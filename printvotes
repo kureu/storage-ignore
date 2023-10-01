@@ -27,14 +27,9 @@ local function updateTextLabel()
 	print(formattedText)
 end
 
--- Main execution
-print("a")
-
 if not stringValue then
 	error("Missing StringValue. Make sure the StringValue is a child of GuiTexts.")
 end
 
 -- Update the TextLabel initially
 updateTextLabel()
-
-print("yay")
